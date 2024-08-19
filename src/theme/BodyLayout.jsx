@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Sidebar from './Sidebar';
 import Navbar from '../components/NavBar';
 import { setLargeScreen } from '../redux/uiActions';
-import CartPopup from '../components/CartPopUp';
+import CartPopup from '../components/CartPopup'; // Ensure the casing and path are correct
 const BodyLayout = () => {
   const dispatch = useDispatch();
   const isSidebarOpen = useSelector((state) => state.ui.isSidebarOpen);
